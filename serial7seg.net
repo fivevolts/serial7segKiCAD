@@ -1,0 +1,217 @@
+# EESchema Netlist Version 1.1 created  26/01/2011 22:40:35
+(
+ ( /4D2C9909 $noname  R8 150 {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000008 )
+ )
+ ( /4D2B64B2 $noname  R2 150 {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000002 )
+ )
+ ( /4D2B8AF6 $noname  GND2 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4D2B8AF5 $noname  VCC1 CONN_1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /4D2B8926 $noname  CK2 CONN_1 {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /4D2B8921 $noname  SIN1 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /4D2B87CE $noname  CK1 CONN_1 {Lib=CONN_1}
+  (    1 N-000021 )
+ )
+ ( /4D2B85E8 $noname  SOUT1 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /4D2B85BA $noname  U1 74LS164 {Lib=74LS164}
+  (    1 N-000004 )
+  (    2 N-000004 )
+  (    3 N-000008 )
+  (    4 N-000005 )
+  (    5 N-000010 )
+  (    6 N-000009 )
+  (    7 GND )
+  (    8 N-000021 )
+  (    9 VCC )
+  (   10 N-000019 )
+  (   11 N-000017 )
+  (   12 N-000013 )
+  (   13 N-000002 )
+  (   14 VCC )
+ )
+ ( /4D2B6538 $noname  GND1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4D2B6533 $noname  VCC2 CONN_1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( /4D2B64BA $noname  R7 150 {Lib=R}
+  (    1 N-000018 )
+  (    2 N-000019 )
+ )
+ ( /4D2B64B9 $noname  R6 150 {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000017 )
+ )
+ ( /4D2B64B7 $noname  R5 150 {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000009 )
+ )
+ ( /4D2B64B5 $noname  R4 150 {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000010 )
+ )
+ ( /4D2B64B4 $noname  R3 150 {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000005 )
+ )
+ ( /4D2B64AC $noname  R1 150 {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000013 )
+ )
+ ( /4D2B6432 $noname  AFF1 7SEGMENTS {Lib=7SEGMENTS}
+  (    1 N-000020 )
+  (    2 N-000014 )
+  (    3 GND )
+  (    4 N-000011 )
+  (    5 N-000006 )
+  (    6 N-000015 )
+  (    7 N-000012 )
+  (    8 ? )
+  (    9 N-000016 )
+  (   10 N-000018 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VCC" "VCC"
+ VCC2 1
+ U1 14
+ U1 9
+ VCC1 1
+Net 2 "" ""
+ U1 13
+ R2 2
+ SOUT1 1
+Net 3 "GND" "GND"
+ AFF1 3
+ GND1 1
+ U1 7
+ GND2 1
+Net 4 "" ""
+ SIN1 1
+ U1 1
+ U1 2
+Net 5 "" ""
+ U1 4
+ R3 2
+Net 6 "" ""
+ R8 1
+ AFF1 5
+Net 8 "" ""
+ R8 2
+ U1 3
+Net 9 "" ""
+ R5 2
+ U1 6
+Net 10 "" ""
+ R4 2
+ U1 5
+Net 11 "" ""
+ AFF1 4
+ R3 1
+Net 12 "" ""
+ AFF1 7
+ R1 1
+Net 13 "" ""
+ U1 12
+ R1 2
+Net 14 "" ""
+ AFF1 2
+ R4 1
+Net 15 "" ""
+ AFF1 6
+ R2 1
+Net 16 "" ""
+ AFF1 9
+ R6 1
+Net 17 "" ""
+ R6 2
+ U1 11
+Net 18 "" ""
+ AFF1 10
+ R7 1
+Net 19 "" ""
+ U1 10
+ R7 2
+Net 20 "" ""
+ AFF1 1
+ R5 1
+Net 21 "" ""
+ CK2 1
+ U1 8
+ CK1 1
+}
+#End

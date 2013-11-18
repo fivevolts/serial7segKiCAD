@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 11/01/2011 23:36:37
+
+BeginCmp
+TimeStamp = /4D2B6432;
+Reference = AFF1;
+ValeurCmp = 7SEGMENTS;
+IdModule  = FND500;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B8C93;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B87CE;
+Reference = CK1;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad1.5x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B8926;
+Reference = CK2;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad1.5x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B6538;
+Reference = GND1;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B8AF6;
+Reference = GND2;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64AC;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64B2;
+Reference = R2;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64B4;
+Reference = R3;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64B5;
+Reference = R4;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64B7;
+Reference = R5;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64B9;
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B64BA;
+Reference = R7;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2C9909;
+Reference = R8;
+ValeurCmp = 150;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B8921;
+Reference = SIN1;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad1.5x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B85E8;
+Reference = SOUT1;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad1.5x3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B85BA;
+Reference = U1;
+ValeurCmp = 74LS164;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B8AF5;
+Reference = VCC1;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2B6533;
+Reference = VCC2;
+ValeurCmp = CONN_1;
+IdModule  = FlatPad3mm;
+EndCmp
+
+EndListe
